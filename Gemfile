@@ -22,6 +22,8 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'bootstrap', '~> 5.2.2'
 gem 'net-smtp'
+gem 'net-pop'
+gem 'net-imap'
 gem 'rails-i18n'
 
 # Use Active Storage variant
