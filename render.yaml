@@ -1,11 +1,11 @@
 databases:
-  - name: blog-study
+  - name: blog_ror
     databaseName: blog_ror_production
     user: blog_ror
 
 services:
   - type: web
-    name: blog-study
+    name: blog_ror
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
